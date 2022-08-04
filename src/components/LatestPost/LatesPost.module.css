@@ -1,0 +1,177 @@
+.container{
+    /* background-color: lightgreen; */
+    width: 82%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+}
+
+.news{
+    flex: 1;    
+}
+
+.topicNews{    
+ padding: 10px 0;   
+}
+
+.topicNews::after{
+    content: '';
+    display: block;
+    width: 97%;
+    height: 6px;
+    background-color: gray;
+    margin-top: 10px;
+}
+
+.topicNews h3{
+    font-size: 1.5em;
+}
+
+.listNews{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.newsItem{
+    /* background-color: aqua; */
+    width: 48%;
+    cursor: pointer;
+}
+
+.newsItem img{
+    width: 100%;
+    height: 180px;    
+}
+
+.newsItem img:hover{
+    filter: brightness(1.2);    
+}
+
+.descNewsItem h3:hover{
+color: rgb(206, 91, 91);
+}
+
+.latest{
+    flex: .6;
+}
+
+.latestTitle{    
+    padding: 10px 0;
+}
+
+.latestTitle::after{
+    content: '';
+    display: block;
+    height: 6px;
+    width: 100%;
+    background-color: gray;
+    margin-top: 10px;
+}
+
+.latestTitle h3{
+    font-size: 1.5em;
+}
+
+.headlineLatest{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.headlineLatest img{
+    width: 100%;
+}
+
+.headlineLatest img:hover{
+    filter: brightness(1.2);
+}
+
+.descHeadlineLatest h3:hover{
+    color: rgb(189, 64, 64);
+}
+
+.newsLatestItem{
+    display: flex;    
+    gap: 5px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+.descLatestItem h3:hover{
+    color: rgb(189, 64, 64);
+}
+
+.newsLatestItem img{
+    width: 40%;
+}
+
+.newsLatestItem img:hover{
+    filter: brightness(1.2);
+}
+
+
+/* media social */
+.stayConnected{
+    margin-top: 20px;
+}
+
+.stayConnectedTitle{
+    padding: 10px 0;
+}
+
+.stayConnectedTitle::after{
+    content: '';
+    height: 4px;
+    width: 100%;
+    display: block;
+    background-color: gray;
+    margin-top: 10px;
+}
+
+.item{
+    display: flex;    
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.iconMediaSocial{
+    width: 40px;
+    background-color: #fff;
+}
+
+.iconMediaSocial img{
+    width: 100%;
+    display: flex;
+}
+
+.item:hover{
+    cursor: pointer;
+    filter: brightness(1.2);
+}
+
+.item h4{
+    flex: 1;    
+    color: #fff;
+    margin-left: 10px;
+}
+
+.facebook{
+    background-color: #3a559f;
+}
+
+.twitter{
+    background-color: #03a9f4;
+}
+
+.youtube{
+    background-color: #dc472e;
+}
+
+.like{    
+    border-left: 1px solid #fff;
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #Fff;
+}

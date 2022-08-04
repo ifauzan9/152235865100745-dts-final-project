@@ -1,0 +1,47 @@
+.container{    
+    width: 82%;
+    margin: auto;
+}
+
+.title{
+    /* background-color: lightgreen;             */
+}
+
+.title::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 6px;
+    background-color: gray;
+    margin-top: 10px;
+}
+
+
+.title h3{
+    font-size: 1.5em;
+    padding: 4px;
+}
+
+.listSports{    
+    display: flex;
+    gap: 20px;   
+    margin-top: 20px; 
+}
+
+.newsSport{
+    flex: 1;
+    cursor: pointer;
+}
+
+.newsSport img{
+    width: 100%;
+    height: 180px;    
+}
+
+.newsSport img:hover{
+    filter: brightness(1.2);
+}
+
+.newsSport .descSport .titleSport:hover{
+    color: rgb(209, 79, 79);
+}

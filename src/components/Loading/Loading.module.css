@@ -1,0 +1,12 @@
+.container{
+    
+    height: 50vh;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading{    
+    font-size: 2em;
+}

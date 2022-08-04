@@ -1,0 +1,91 @@
+.navbarWrap{
+    display: flex;    
+    height: 100px;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(151, 151, 151, 0.473);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.26);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;    
+    background-color: #fff;
+    /* background-color: greenyellow;     */
+    align-items: center;
+    z-index: 1;
+}
+
+.imgLogos{
+    /* background-color: aquamarine; */
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.imgLogos img{  
+    width: 200px;  
+    height: 100%;
+}
+
+.searchForm{
+    /* background-color: lightcoral; */
+    display: flex;
+    gap: 10px;
+}
+
+.searchForm input{
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.searchForm button{
+    border: none;
+    background-color: unset;
+}
+
+.searchForm img{
+    width: 30px;
+    cursor: pointer;
+    
+}
+
+.menuNav{
+    display: flex;
+    gap: 20px;
+}
+
+.menuNav ul{
+    display: flex;
+    list-style: none;    
+    align-items: center;    
+}
+
+.menuNav ul li{
+    margin: 10px;    
+    text-transform: uppercase;
+    font-size: 1em;
+    /* background-color: blueviolet; */
+}
+
+.menuNav ul li:hover{
+    cursor: pointer;
+    color: brown;
+}
+
+.menuNav .profileIcon{
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;    
+    /* display: none; */
+}
+
+.menuNav .profileIcon:hover{
+    cursor: pointer;
+}
+
+.menuNav .profileIcon img{
+    width: 50px;
+}
+
+.menuNav .profileIcon .arrowDown{
+    width: 30%;    
+}

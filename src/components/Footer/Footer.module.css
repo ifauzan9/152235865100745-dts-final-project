@@ -1,0 +1,46 @@
+.container{
+    background-color: rgb(24, 24, 24);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;    
+}
+
+.menuFooter{
+    display: flex;
+    color: rgb(175, 175, 175); 
+    gap: 100px;   
+}
+
+.menuFooter ul{
+    list-style: none;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.menuFooter ul li:hover{
+    color: #fff;
+}
+
+.copyright{    
+    /* background-color: red; */    
+    gap: 20px;
+    align-items: center;    
+}
+
+.copyright .logo{
+    margin: auto;    
+    width: 200px;
+}
+
+.names{
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.logo img{
+    width: 100%;
+}

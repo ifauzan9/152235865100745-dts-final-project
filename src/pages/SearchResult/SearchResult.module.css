@@ -1,0 +1,54 @@
+.container{
+    margin-top: 100px;
+    min-height: 50vh;
+    /* background-color: aqua; */
+}
+
+.searchWrap{
+    padding: 20px;    
+    /* text-decoration: underline; */
+}
+
+.searchWrap h1{
+    text-decoration: underline;
+}
+
+.listSearch{
+    /* background-color: lightcoral; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.news{
+    border-bottom: 1px solid rgb(136, 136, 136);
+    padding: 4px;
+    display: flex;
+    gap: 20px;    
+}
+
+.news img{
+    width: 20%;
+}
+
+.news .contentNews{
+    /* background-color: lightgreen; */
+    height: 150px;
+    overflow: hidden;
+}
+
+.contentNews p{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    
+}
+
+.contentNews h3{
+    text-decoration: none;
+}
+
+.contentNews h3:hover{
+    cursor: pointer;
+    color: rgb(204, 72, 72);
+}

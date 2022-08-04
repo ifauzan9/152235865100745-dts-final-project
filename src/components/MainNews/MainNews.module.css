@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainNewsWrap{
+    /* background-color: greenyellow;*/
+    margin-top: 120px;    
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.carouselMainNews{
+    display: grid;
+    grid-template-areas: 
+        'mainNews mainNews secondNews'
+        'mainNews mainNews thirdNews'
+    ;    
+    /* grid-template-rows: repeat(3, 200px);     */
+    max-width: 85%;    
+    padding: 20px;        
+}
+
+.mainNews{
+    grid-area: mainNews;
+    background-color: red;    
+    position: relative;
+    cursor: pointer;
+}
+
+.mainNews:hover{
+    filter: brightness(1.2);
+}
+
+.mainNews .descMainNews{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 4px 8px;
+}
+
+.secondNews{
+    grid-area: secondNews;
+    background-color: pink;
+    position: relative;
+    cursor: pointer;
+}
+
+.secondNews:hover{
+    filter: brightness(1.2);
+}
+
+.secondNews .descNews{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    right: 0;
+    padding: 4px 8px;
+}
+
+.thirdNews{
+    grid-area: thirdNews;
+    background-color: orange;
+    position: relative;
+    cursor: pointer;
+}
+
+.thirdNews:hover{
+    filter: brightness(1.2);
+}
+
+.thirdNews .descNews{
+    position: absolute;
+    bottom: 0;    
+    left: 0;
+    right: 0;
+    padding: 4px 8px;
+}
+
+
+.carouselMainNews img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.carouselNews{
+    /* background-color: green; */
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsItem{    
+    width: 260px;    
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.newsItem img:hover{
+    filter: brightness(1.2);
+}
+
+.titleItem:hover{
+    color: rgb(199, 56, 56);
+}
+
+.thumbNews{
+    height: 200px;
+}
+
+.newsItem .thumbNews img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.descItemNews{
+    padding-top: 10px;
+}
+
+.descItemNews .authorItem{
+    font-size: 13px;
+}
+
+.descItemNews .authorItem span{
+    color: rgb(172, 43, 43);
+    font-weight:bold;
+}
+
+.descItemNews .titleItem{
+    font-size: 1.2em;
+}
